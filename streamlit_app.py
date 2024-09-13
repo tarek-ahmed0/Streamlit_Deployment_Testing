@@ -4,6 +4,7 @@ import numpy as np
 import streamlit as st
 
 # Data Ingestion :
+@st.cache
 main = pd.read_excel(r"tourist_preferences_recommendations.xlsx")
 
 # Setup Our Application ( Deployment )
